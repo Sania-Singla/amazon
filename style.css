@@ -1,0 +1,555 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    padding:0;
+}
+
+/* header */
+
+/* hover effect */
+
+/* .border              no need of this 
+{
+    border:1px solid transparent;
+} */
+.border:hover
+{
+    border:1px solid white;
+    border-radius:2px;
+}
+
+
+
+/* Nav Bar */
+.navbar
+{
+    background-color:#0f1111;
+    height:60px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly; 
+}
+
+/* Box1 */
+.nav-logo
+{
+    width:100px;   /* no need to set height b/c already vo iske content mein neeche set krdi hai */
+}
+.nav-logo-style
+{
+    height:50px;
+    width:100%;
+}
+
+
+/* Box2 */
+.nav-location
+{ 
+    width:80px;
+ /* height:60px;         no need to set height b/c already vo iske content mein neeche set krdi hai  
+                        nhi toh fir agr iski height bhi 60px set krdi toh align-center in nav-bar ka koi effect nhi because 
+                        pura container toh same height leke baitha hai shift kha kre  */
+}
+.nav-location-first
+{
+    color:#cccccc;
+    font-size:12px;
+    margin-left:15px;
+    font-weight:400;
+}
+
+.nav-location-second
+{
+    font-size:14px;
+    font-weight:700;
+    margin-left:3px;
+}
+
+.nav-location-bottom
+{
+    display:flex;
+    align-items:center;
+}
+
+
+/* Box3*/
+.nav-searchbar
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:40px;
+    width:800px;
+} 
+
+.nav-searchbar:hover
+{
+    border:2px solid #febd68;
+    border-radius:5px;
+}
+/* .nav-select         becuase neeche hmne iske content ( select-style ) wale ki height and width set krdi hai so according to content ye jagah lelega
+{
+    height:40px;
+    width:50px;
+} */
+.nav-select-style
+{
+    text-align:center;
+    height:40px;
+    width:50px;
+    background-color:#e6e6e6;
+    border:none;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.nav-input-field
+{
+    width:100%;    /* no need to set height b/c already vo iske content mein neeche set krdi hai */
+}
+
+.nav-input-style
+{
+    width:100%;
+    height:40px;
+    border:none;
+    font-size:17px;
+}
+
+.nav-input-icon
+{
+    font-size:23px;
+    color:#0f1111;
+    background-color:#febd68;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:55px;
+    height:40px;
+}
+
+/* Box4 */
+.signin-Account-list
+{
+    display:flex;
+}
+
+.font-lightclass-4-5                  /* to use in both signin and returns field */
+{
+    font-weight:400;
+    font-size:12px;
+}
+.font-boldclass-4-5
+{
+    font-weight:700;
+    font-size:14px;
+   
+}
+.signin-Account
+{
+    margin-right:5px;
+}
+.dropdown-icon
+{ 
+
+    color:#606060;
+}
+
+/* Box6 */
+.nav-cart
+{
+    display:flex;
+    align-items:end;
+}
+
+.cart-icon   /* or use nav-cart i{ }  which means this style should be applied to all the icons(i) in the nav-cart container */
+{
+    font-size:30px;
+}
+
+
+
+/* Panel */
+.panel 
+{
+    height:40px;
+    background-color:#232f3e;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+.main-panel
+{
+    width:550px;     /* just to use space-evenly property */
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-left:15px;
+}
+
+/* Box1 */
+.ALL
+{
+    display:flex;
+    align-items:center;
+}
+
+.bar-icon
+{
+    font-size:20px;
+}
+.all-text
+{
+    margin-left:5px;
+}
+
+/* genric text class */
+.panel-text
+{
+    font-size:14px;
+    font-weight:400;
+    margin-left:15px;
+}
+
+
+
+ /* Shop                                                    Accendently made it 
+
+ hover effect 
+.shop-hover:hover
+{
+    color:#febd68
+}
+.shop-bar
+{
+    color:#333333;
+    background-color:#fafafa;
+    height:33px;
+    display:flex;
+    align-items:center;
+}
+.main-bar
+{
+    display:flex;
+    align-items:center;
+    width:680px;                      just to use space-evenly property 
+    justify-content:space-evenly
+}
+.shopbar-textstyle
+{
+    font-size:12px;
+}
+.today-deals              shopbar-textstyle won't work on this particular <p> because seaprately style is defined ( dominate ) 
+{
+    font-size: 12px;
+    font-weight:700;
+
+}
+*/
+
+
+/* main section */
+
+.hero-section
+{
+    background-image:url("main-image.jpg");
+    height:300px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:end;
+    justify-content:center;
+}
+
+.discription
+{
+    font-size:14px;
+    font-weight:400;
+    color:#0f1111;
+    height:40px;
+    background-color:#f5f6f6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 0 18px 0;
+    width:97%;
+}
+.discription a
+{
+    color:#007185;
+    text-decoration:none;
+}
+
+
+
+/* below description (images) */
+
+.content
+{
+    background-color:#e2e7e6;
+    height:880px; 
+}
+.row
+{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.box-style
+{
+    color:#0f1111;
+    background-color:#ffffff;
+    text-align:start;
+    height:420px;
+    width:337px;
+    margin-bottom:20px;   /* can also apply this in .row */
+}
+
+h2
+{
+    margin:20px 0 13px 20px;
+}
+
+.img-style
+{
+    margin:0 20px 15px 20px;
+    width:297px;
+    height:297px;
+}
+
+a
+{
+    color:#007185;
+    text-decoration: none;
+    margin-left:20px;
+}
+
+
+
+/* footer */
+/* panel 1 */
+.panel1
+{
+    height:50px;
+    background-color:#2b394b;
+    color:white;
+    font-size:13px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+/* panel 2 */
+.panel2
+{
+    color:white;
+    height:310px;
+    background-color:#1e2b39;
+    display:flex;
+    justify-content: center;
+    padding:50px 100px 50px 30px;
+}
+
+/* generic font class */
+.main-heading
+{
+    font-size:16px;
+    font-weight:700;
+    margin-bottom:16px;
+}
+
+.sub-options
+{
+    color:#dddddd;
+    font-size:14px;
+    margin-bottom:11px;
+}
+/* hover effect */
+.sub-options:hover
+{
+    text-decoration:underline;
+}
+
+
+.box
+{
+    margin:0 0 0 80px;
+    padding:0 10px;
+    height:320px;
+    background-color:#1e2b39;
+}
+
+.footer-box1
+{
+    width:140px;
+}
+.footer-box2
+{
+    width:180px;
+}
+.footer-box3
+{
+    width:230px;
+}
+.footer-box4
+{
+    width:135px;
+}
+
+
+
+/* panel 3 */
+.panel3
+{
+    background-color:#1e2b39;
+    height:110px;
+    color:white;
+}
+
+.panel3-boxes
+{
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.amazon-logo
+{
+    margin-top:15px;       /*just to get the image in center ( same line as the elements ) */
+}
+
+.globe,.flag
+{
+    background-color:#1e2b39;
+    color:#cccccc;
+}
+
+/* generic style class */
+.panel3-select
+{
+    color:#cccccc;
+    background-color:#1e2b39;
+    font-size:13px;
+    border:none;
+    margin-left:5px;
+}
+.elements
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:70px;
+}
+.element-style
+{
+    display:flex;
+    align-items:center;
+    border:1px solid #848688;
+    border-radius:3px;
+    padding:6px 10px;
+    margin-left:7px;
+}
+
+
+/* panel 4 */
+.panel4
+{
+    height:330px;
+    background-color: #131a22;
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+    padding:30px 200px;
+}
+
+/* generic text style classes */
+.panel4-maintext
+{
+    font-size:12px;
+    color:#dddddd;
+    text-transform:capitalize;
+    margin-bottom:1px;
+}
+.panel4-suboptions
+{
+    font-size:12px;
+    color:#999999;
+    margin-bottom:2px;
+}
+  
+.panel4-boxes         /* although we've applied some inline style to width as weel in html just for looks */
+{
+    width:90px;
+}
+
+.panel4-sub-boxes
+{
+    height:90px;
+}
+
+/* hover effects */
+.panel4-sub-boxes:hover
+{
+.panel4-maintext
+{
+    text-decoration: underline;
+    text-decoration-color:#dddddd;
+}
+.panel4-suboptions
+{
+    text-decoration: underline;
+    text-decoration-color:#999999;
+}
+}
+
+
+/* panel 5 */
+.panel5
+{
+    background-color:#131a22;
+    height:65px;
+    display:flex;
+    justify-content: center;
+    padding-top:10px; 
+}
+
+.panel5-first-line
+{
+    display:flex;
+    justify-content:center;
+}
+.panel5-second-line
+{
+    text-align:center;
+}
+
+.panel5-firstline-boxes
+{
+    margin:0 0 5px 15px ;
+
+}
+
+/* hover effects */
+.panel5-firstline-boxes:hover
+{   
+    text-decoration: underline;
+    text-decoration-color:#dddddd;
+}
+
+/* generic text classes */
+.panel5-text-style
+{
+    font-size:12px;
+    font-weight:500;
+    color:#dddddd;
+}
+
+/* COMPLETE */
